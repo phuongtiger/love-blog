@@ -1,0 +1,38 @@
+/* Pc */
+
+@media (min-width: 1024px){
+    
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1100px){
+    #infomation{
+        height: 2000px;
+    }
+    .list-place{
+        padding-top: 930px;
+    }
+}
+
+/* Smartphone */
+
+@media (max-width: 767px){
+    #infomation{
+        height: 1300px;
+    }
+    .list-place{
+        padding-top: 600px;
+    }
+    .who__who-list .who-list--heading{
+        width: 100%;
+        font-size: 50px;
+    }
+    .who__who-list .who-list--subheading{
+        width: 100%;
+    }
+    .who__who-list .who-list__img{
+        width: 100%;
+    }
+
+}
