@@ -47,7 +47,7 @@ li{
 }
 
 #heading .heading__logo{
-    flex-basis: 5%;
+    flex-basis: 40%;
     text-align: center;
     display: flex;
 }
@@ -58,8 +58,19 @@ li{
     align-self:center;
 }
 
+#heading .heading__sub-menu{
+    flex-basis: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#heading .heading__sub-menu i{
+    align-self: center;
+    font-size: 25px;
+}
+
 #heading .heading__nav{
-    flex-basis: 83%;
+    flex-basis: 70%;
     display: flex;
     justify-content: space-between;
 }
@@ -83,7 +94,10 @@ li{
     opacity: 0.5;
 }
 
-.heading__nav .nav__location-btn,
+.heading__nav .nav__location-btn{
+    flex-basis: 15%;
+    align-self:center;    
+}
 .heading__nav .nav__log-in{
     flex-basis: 15%;
     align-self:center;

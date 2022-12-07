@@ -1,12 +1,35 @@
 /* Pc */
 
 @media (min-width: 1024px){
-    
+    #heading .heading__logo{
+        flex-basis: 5%;
+    }
+    #heading .heading__sub-menu{
+        display: none;
+    }
+    #heading .heading__nav{
+        flex-basis: 90%;
+    }
+}
+
+@media (max-width: 611px){
+    body{
+        width: 611px;
+    }
 }
 
 /* Tablet */
 
 @media (min-width: 768px) and (max-width: 1100px){
+    #heading .heading__logo{
+        flex-basis: 5%;
+    }
+    #heading .heading__sub-menu{
+        display: none;
+    }
+    #heading .heading__nav{
+        flex-basis: 90%;
+    }
     #infomation{
         height: 2000px;
     }
@@ -18,10 +41,24 @@
 /* Smartphone */
 
 @media (max-width: 767px){
+    .heading__nav .nav__nav-bar,
+    .heading__nav .nav__log-in
+    {
+        display: none;
+    }
+    #heading .heading__nav{
+        justify-content: flex-end;
+    }
     #infomation{
-        height: 1300px;
+        height: 2000px;
     }
     .list-place{
+        padding-top: 930px;
+    }
+    /* #infomation{
+        height: 1300px;
+    } */
+    /* .list-place{
         padding-top: 600px;
     }
     .who__who-list .who-list--heading{
@@ -33,6 +70,6 @@
     }
     .who__who-list .who-list__img{
         width: 100%;
-    }
+    } */
 
 }
