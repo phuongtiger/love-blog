@@ -206,6 +206,16 @@ li{
     border-radius: 282px 282px 0 0;
 }
 
+.who-list--box{
+    display: flex;
+    padding: 20px 0px;
+}
+.who-list--box .box--when,
+.who-list--box .box--where{
+    text-align: center;
+    flex-basis: 50%;
+}
+
 .list-place{
     padding-top: 600px;
     font-size: 32px;
@@ -305,15 +315,15 @@ li{
 }
 
 .content__img .img--left{
-    flex-basis: 25%;
+    flex-basis: 33.333%;
 }
 
 .content__img .img--mid{
-    flex-basis: 25%;
+    flex-basis: 33.333%;
 }
 
 .content__img .img--right{
-    flex-basis: 25%;
+    flex-basis: 33.333%;
 }
 
 .content__img .img--left img,
