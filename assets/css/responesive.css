@@ -24,10 +24,23 @@
         flex-basis: 90%;
 }
     #infomation{
-        height: 2000px;
+        height: 100%;
     }
     .list-place{
         padding-top: 930px;
+    }
+}
+
+@media (min-width: 722px) and (max-width: 917px){
+    /* content */
+    .content__img .img--left img{
+        transform: translate(-50px, 30px);
+    }
+    .content__img .img--mid img{
+        transform: translate(50px, 30px);
+    }
+    .content__img .img--right img{
+        transform: translate(0px, 50px);
     }
 }
 
@@ -44,14 +57,45 @@
         margin-right: 8px;
     }
     #infomation{
-        height: 2000px;
+        height: 100%;
     } 
     .list-place{
         padding-top: 930px;
     }
+    #infomation .info-time{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .info-time .info-time__boy{
+        margin-top: 50px;
+    }
+    .info-time .info-time__icon{
+        margin: 30px; 
+    }
+    .info-time .info-time__girl{
+        margin-top: 0px;
+    }
+    #content{
+        margin-top: 50px;
+    }
+    .content__info .info__list{
+        padding: 50px 0 0 0;
+    }
+    .info__list .list__subinfo{
+        padding: 10px 20px 0;
+    }
+     .content__img .img--left img{
+        transform: translate(-50px, 30px);
+    }
+    .content__img .img--mid img{
+        transform: translate(50px, 30px);
+    }
+    .content__img .img--right img{
+        transform: translate(0px, 50px);
+    }
 
 }
-@media (min-width: 631px){
+@media (min-width: 630px){
    .who-list--box{
         display: none;
     } 
@@ -87,11 +131,24 @@
         width: 100%;
         transform: translateY(85px);
     }
+    .info-time .past__text{
+        margin: 50px 0 0 10%;
+    }
     /* content */
-    .content__img .img--right img {
+    /* .content__img .img--right img {
         transform: translate(0px, -5px)
     }
     .content__img .img--left img{
         transform: translate(-10px, 30px);
+    } */
+}
+@media (max-width: 617px){
+    .content__img .img--left img,
+    .content__img .img--mid img,
+    .content__img .img--right img{
+        transform: none;
+    }
+    .content__img .img--left img{
+        margin-top: 20px;
     }
 }
